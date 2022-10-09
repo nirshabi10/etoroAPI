@@ -1,0 +1,184 @@
+body {
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #fafafa;
+    color: gray;
+}
+
+div {
+    padding: 5px;
+
+}
+
+
+
+/* Header */
+
+#header {
+    text-align: center;
+    /* font-size: 40px; */
+    padding: 10px;
+    background-color: #c0e8fd;
+    margin-bottom: 20px;
+    color: #000021;
+}
+
+.belowTitleHr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(66, 66, 66, 0.75), rgba(0, 0, 0, 0));
+}
+
+
+
+
+/* layout */
+
+#data-area {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 40%;
+    margin: auto;
+    padding: 60px 30px;
+    border-radius: 25px;
+}
+
+#divCountInstruments, #divCountInstrumentTypes {
+    text-align: center;
+    font-size: 30px;
+    
+
+}
+
+
+#selectAreaDiv {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 40%;
+    margin: auto;
+    padding: 60px 30px;
+    border-radius: 25px;
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+#selectDiv {
+    font-size: 20px;
+    padding-bottom: 20px;
+    color: #f887cc;
+}
+
+
+
+/* select */
+select {
+    font-size: 20px;
+    width: 40%;
+    height: 47px;
+    margin-right: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+}
+
+select:hover {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+/* button */
+#showInstrumentListBtn {
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: .25rem;
+    box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.85);
+    cursor: pointer;
+    display: inline-flex;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    margin: 0;
+    min-height: 3rem;
+    padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  #showInstrumentListBtn:hover,
+  #showInstrumentListBtn:focus {
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+    color: rgba(0, 0, 0, 0.65);
+  }
+  
+  #showInstrumentListBtn:hover {
+    transform: translateY(-1px);
+  }
+  
+  #showInstrumentListBtn:active {
+    background-color: #F0F0F1;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+    color: rgba(0, 0, 0, 0.65);
+    transform: translateY(0);
+  }
+
+
+  
+/* results */
+
+#divResults {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    width: 40%;
+    margin: auto;
+    padding: 60px 30px;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#divCount {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+  /* table */
+
+table {
+    margin: auto;
+  }
+  
+
+
+img {
+    align-items: center;
+}
+
+a {
+    color: #000021;
+    text-decoration: none; 
+}
+
+
+a:hover {
+    color: #13c636;
+}
+
+a:visited, a:active {
+    color: #000021;
+}
